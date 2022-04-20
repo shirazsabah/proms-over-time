@@ -35,5 +35,5 @@ R code for this can be found accompanying the following publication:
 *Sabah SA, Alvand A, Beard DJ, Price AJ. Minimal important changes and differences were estimated for Oxford hip and knee scores following primary and revision arthroplasty. Journal of Clinical Epidemiology. 2022 Mar 1 [cited 2022 Jan 20];143:159–68. Available from: https://www.sciencedirect.com/science/article/pii/S0895435621004212*
 
 # Statistical code in this repository
-- *R PoT.R* = R code for the tables and figures in the BJJ study.
-- *Do PoT regression models.dta* = Stata code for the multiple linear regression and multiple logistic regression models constructed for the BJJ study.
+- `R PoT.R` = R code for the tables and figures in the BJJ study.
+- `Do PoT regression models.dta` = Stata code for the multiple linear regression and multiple logistic regression models constructed for the BJJ study.
