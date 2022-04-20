@@ -257,9 +257,19 @@ tbl1h <- FitFlextableToPage(table1h)
 
 # Description
 ##OHS
+p_load(magrittr)
+dfh %$% round(mean(hrpreopqscore, na.rm=TRUE),1)
+dfh %$% round(sd(hrpreopqscore, na.rm=TRUE),1)
+dfh %$% round(mean(hrpostopqscore, na.rm=TRUE),1)
+dfh %$% round(sd(hrpostopqscore, na.rm=TRUE),1)
+
+
 crudeohsyr <- dfh %>% group_by(year) %>% summarise(meanq1ohs = mean(hrpreopqscore, na.rm=TRUE),
+                                                   sdq1ohs = sd(hrpreopqscore, na.rm=TRUE),
                                                    meanq2ohs = mean(hrpostopqscore, na.rm=TRUE),
+                                                   sdq2ohs = sd(hrpostopqscore, na.rm=TRUE),
                                                    meancohs = mean(cohs, na.rm=TRUE),
+                                                   sdcohs = sd(cohs, na.rm=TRUE),
                                                    iqrq1 = IQR(hrpreopqscore, na.rm=TRUE),
                                                    iqrq2 = IQR(hrpostopqscore, na.rm=TRUE),
                                                    iqrcohs = IQR(cohs, na.rm=TRUE))
@@ -304,6 +314,12 @@ pcomorbh
 
 # Description
 ##OKS
+df %$% round(mean(krpreopqscore, na.rm=TRUE),1)
+df %$% round(sd(krpreopqscore, na.rm=TRUE),1)
+df %$% round(mean(krpostopqscore, na.rm=TRUE),1)
+df %$% round(sd(krpostopqscore, na.rm=TRUE),1)
+
+
 crudeoksyr <- df %>% group_by(year) %>% summarise(meanq1oks = mean(krpreopqscore, na.rm=TRUE),
                                                   meanq2oks = mean(krpostopqscore, na.rm=TRUE),
                                                   meancoks = mean(coks, na.rm=TRUE),
