@@ -18,7 +18,9 @@ Data for this study is open source and available to download from the NHS PROMs 
 ## PROM participation and linkage
 The "Participation Linkage yyYY.csv" file provides summary (count) data indicating the level of participation in the PROMs programme. The total number of procedures is derived from the Hospital Episode Statistics Admitted Patient Care (HES APC) dataset. 
 
-A list of relevant Office of Population Censuses and Surveys Classification of Surgical Operations and Procedures (OPCS-4) codes for eligible procedures is provided by NHS Digital within the publication: *NHS Digital. Patient Reported Outcome Measures (PROMs) in England - A guide to PROMS methodology. 2017* https://digital.nhs.uk/binaries/content/assets/legacy/pdf/g/t/proms_guide_v12.pdf *(last accessed 20/04/2022)*.
+A list of relevant Office of Population Censuses and Surveys Classification of Surgical Operations and Procedures (OPCS-4) codes for eligible procedures is provided by NHS Digital within the publication: 
+
+*NHS Digital. Patient Reported Outcome Measures (PROMs) in England - A guide to PROMS methodology. 2017.* https://digital.nhs.uk/binaries/content/assets/legacy/pdf/g/t/proms_guide_v12.pdf *(last accessed 20/04/2022)*.
 
 ## Patient-level PROM data
 This is found within a number of different datasets (depending on the year). Relevant filenames include:
