@@ -1,6 +1,6 @@
 # Early patient-reported outcomes following primary hip and knee replacement have improved over the past seven years: An analysis of the NHS PROMs dataset
 
-This study has been accepted for publication by the Bone & Joint Journal (doi: TBC)
+This study has been published by the Bone & Joint Journal (doi: https://doi.org/10.1302/0301-620X.104B6.BJJ-2021-1577.R1)
 
 # Study aim
 The aim of the study was to address the research question: 
